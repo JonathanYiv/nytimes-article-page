@@ -1,0 +1,74 @@
+/* Declaration Order
+   1) Positioning
+   2) Box-Model
+   3) Typographic
+   4) Visual */
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+nav {
+  height: 3em;
+
+  background-color: red;
+}
+
+article.main {
+  margin: 0 auto;
+  width: 70%;
+
+  background-color: orange;
+}
+
+article.inflation {
+  clear: both;
+
+  background-color: pink;
+}
+
+article.video {
+  clear: both;
+
+  background-color: cyan;
+}
+
+header {
+  background-color: yellow;
+}
+
+section {
+  float: left;
+
+  margin: 0 5%;
+  width: 50%;
+
+  background-color: green;
+}
+
+aside.recommended {
+  height: 5em;
+
+  background-color: grey;
+}
+
+aside.comments {
+  float: right;
+
+  width: 30%;
+}
+
+aside.related {
+  clear: both;
+
+  background-color: blue;
+}
+
+aside.trending {
+  background-color: magenta;
+}
+
+footer {
+  background-color: purple;
+}
