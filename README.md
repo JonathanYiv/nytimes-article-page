@@ -4,7 +4,7 @@ This purpose of this project was to practice positioning and floating in HTML/CS
 
 This is a project from [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements).
 
-[Screenshot Pending...]
+![Screenshot of Article](assets/images/screenshot.png)
 
 ## Pre-Project Thoughts
 
