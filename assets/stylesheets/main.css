@@ -9,32 +9,65 @@
   width: 90%;
 }
 
+ol {
+  list-style-type: decimal;
+  overflow: auto;
+}
+
+li {
+  list-style-position: inside;
+}
+
+small {
+  color: grey;
+  font-size: .7em;
+}
+
 nav {
+  position: fixed;
+
   height: 3em;
+  width: 90%;
 
   background-color: red;
+
+  line-height: 3em;
 }
 
 article.main {
   margin: 0 auto;
+  margin-top: .2em;
   width: 70%;
 
   background-color: orange;
 }
 
+img {
+  width: 100%;
+}
+
+header figcaption {
+  width: 55%;
+}
+
 article.inflation {
   clear: both;
+
+  width: 80%;
 
   background-color: pink;
 }
 
-article.video {
+.article-media {
   clear: both;
+
+  width: 55%;
 
   background-color: cyan;
 }
 
 header {
+  margin-bottom: 3em;
   background-color: yellow;
 }
 
@@ -48,27 +81,167 @@ section {
 }
 
 aside.recommended {
+  padding-top: 3em;
   height: 5em;
 
   background-color: grey;
 }
 
+aside.advertisement {
+  float: left;
+
+  width: 55%;
+  height: 8em;
+}
+
 aside.comments {
   float: right;
 
+  margin-top: 10em;
   width: 30%;
+
+  background-color: lime;
 }
 
 aside.related {
-  clear: both;
+  float: left;
+
+  margin-bottom: 4em;
+  width: 65%;
 
   background-color: blue;
 }
 
 aside.trending {
+  float: right;
+
+  width: 30%;
+
   background-color: magenta;
 }
 
 footer {
+  clear: both;
+
+  width: 65%;
+  margin: 0 auto;
+
   background-color: purple;
+}
+
+div.more-articles-container {
+  clear: both;
+
+  width: 70%;
+  margin: 0 auto;
+}
+
+iframe {
+  height: 20em;
+  width: 100%;
+}
+
+aside.trending img {
+  float: right;
+  position: relative;
+  bottom: .45em;
+
+  height: 2em;
+  width: 2em;
+}
+
+aside.trending hr {
+  clear: both;
+}
+
+span.trending-bullet {
+  display: inline-block;
+
+  width: 85%;
+}
+
+ul {
+  float: left;
+
+  width: 16%;
+  margin-top: 2em;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+hr {
+  clear: both;
+}
+
+.copyright {
+  margin-top: 20em;
+}
+
+.right {
+  float: right;
+}
+
+div.left-related, div.center-related, div.right-related {
+  display: inline-block;
+  width: 31%;
+  margin-right: 2%;
+  margin-top: 2em;
+  vertical-align: text-top;
+}
+
+aside.related img {
+  width: 85%;
+
+  display: block;
+}
+
+span.center-nav {
+  margin-left: 20%;
+}
+
+span.right-nav {
+  margin-left: 25%;
+}
+
+aside.related, aside.trending {
+  margin-top: 3em;
+}
+
+ul#border {
+  padding-left: 1em;
+  border-left: 1px solid grey;
+}
+
+div.recommended-article {
+  padding-top: .5em;
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  width: 16%;
+  border-left: 1px solid black;
+}
+
+aside.recommended img {
+  float: left;
+  width: 4em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+div.inflation-section {
+  display: inline-block;
+  width: 21%;
+  margin-right: 2%;
+  margin-top: 2em;
+  vertical-align: text-top;
+}
+
+article.inflation img {
+  width: 90%;
 }

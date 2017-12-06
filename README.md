@@ -13,4 +13,4 @@ Just want to practice.
 
 ## Post-Project Thoughts
 
-[Pending...]
+Just did the necessary positioning and floating.
